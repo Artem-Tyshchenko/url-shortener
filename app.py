@@ -76,4 +76,4 @@ def display_short_url(url):
     return render_template('shorturl.html', short_url_display=url)
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(port=5000, debug=False)
